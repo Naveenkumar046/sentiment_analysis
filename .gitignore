@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+config.py
+gunicorn_config.py
+init_migrations.py
+.dockerignore
+# Project specific
+sentiment_analysis.db
+logs/
+.env.local
+/*.log
+pytest_cache/
+__pycache__/
+*.pyc
+__init__.py
